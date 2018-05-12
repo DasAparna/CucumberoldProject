@@ -18,7 +18,7 @@ public class ChromeTest {
 	@FindBy (id="pass")
 	private WebElement password;
 	
-	
+	//Checking git repo
 	@Given("^Open Chrome and start facebook$")
 	public void open_Chrome_and_start_facebook() throws InterruptedException {
 		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\bijay\\Desktop\\Workspace\\chromedriver_win32\\chromedriver.exe");
